@@ -10,7 +10,7 @@ const Weather = () => {
   const [error, setError] = useState('');
 
   const fetchWeather = async () => {
-    const apiKey = '6e2766e6cd5dea473b524e49247fa0ad'; // Replace with your actual API key
+    const apiKey = '6e2766e6cd5dea473b524e49247fa0ad'; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     try {
